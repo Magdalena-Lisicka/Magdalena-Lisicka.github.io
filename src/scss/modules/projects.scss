@@ -19,6 +19,11 @@
     background: $gray;
     border-radius: 16px;
     overflow: hidden;
+    color: $lightConsole;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;    
+    font-family:  Roboto Mono;
     box-shadow: 0px 4 px 16px rgba(0, 0, 0, 0.25);
     &__circle {
         display: block;
@@ -27,6 +32,29 @@
         background: $mediumGray;
         border-radius: 50%;
         margin-right: 8px;
+    }
+    &__content {
+        padding: 24px 16px;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: 102px 1fr;
+        column-gap: 8px;
+    }
+    &__label {
+        display: block;
+        text-align: right; 
+        color: $console;
+        font-weight:normal;      
+    }
+    &__link {
+        color: $linkConsole;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 24px;
+        color: #fff;
     }
     &__window {
         height: 40px;
