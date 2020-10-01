@@ -11,7 +11,9 @@
         line-height: 40px;
         text-decoration: none;
     }
-    
+    &__description {
+        text-align: center;
+    }
     &__image {
         box-sizing: content-box;
         width: 96px;
