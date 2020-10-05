@@ -4,6 +4,10 @@
         max-width: 768px;
         margin: 0 auto;    
     }
+
+    @media (min-width:$desktop) {
+        max-width: 100%;
+    }
     &__bubble {
         position: absolute;
         left: calc(50% + 90px);
@@ -22,6 +26,26 @@
     }
     &__description {
         text-align: center;
+        @media (min-width: $desktop) {
+            max-width: 786px;
+            margin:0 auto;
+            position: relative;
+            /* &::before, &::after {
+                width:82.94px;
+                height:254.88px;
+                content: '';
+                dispaly: block;
+                position:absolute;
+                top:0;
+               } 
+               &::before {
+                background: url('../assets/img/hero-left.svg');
+                right:100%;
+               &::after {
+                background: url('../assets/img/hero-right.svg');
+                left:100%;
+                }  */
+        }
     }
     &__image {
         box-sizing: content-box;
@@ -92,5 +116,6 @@
     }
     &__special {
         color: $blue;
+        white-space: nowrap;
     }
 }
