@@ -1,7 +1,7 @@
 import '../scss/main.scss';
 
 
-console.log("HELLO 🚀");
+console.log("Hi, I'm Magda, nice to meet you 🚀");
 
 fetch("https://api.github.com/users/Magdalena-Lisicka/repos?sort=created&direction=asc")
   .then((res) => res.json())
@@ -31,7 +31,9 @@ fetch("https://api.github.com/users/Magdalena-Lisicka/repos?sort=created&directi
         <p class="project__grid">
           <span class="project__grid project__label">demo:</span>
           <span>
-            &lt;<a 
+            &lt;<a
+            target="_blank"
+            rel="noopener noreferrer" 
             class="project__link" 
             href="${homepage}" 
             title="${name}- demo">see_here</a>&gt;
@@ -40,7 +42,9 @@ fetch("https://api.github.com/users/Magdalena-Lisicka/repos?sort=created&directi
         <p class="project__grid">
           <span class="project__grid project__label">github:</span>
           <span>
-            &lt;<a 
+            &lt;<a
+            target="_blank"
+            rel="noopener noreferrer"   
             class="project__link" 
             href="${html_url}" 
             title="${name} - code">source_code</a>&gt;
