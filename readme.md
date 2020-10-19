@@ -1,4 +1,4 @@
-![cover](https://Magdalena-Lisicka.github.io/og-wtf.png)
+![cover](https://magdalena-lisicka.github.io/og-wtf.png)
 
 # MAGDALENA LISICKA -JUNIOR FRONTEND DEVELOPER 
 
